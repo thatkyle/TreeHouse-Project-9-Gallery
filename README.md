@@ -1,3 +1,12 @@
+This application collects its data from the Flickr API. You will need to add your Flickr API key to the project files before using it. An API secret is not needed, only the API key is required.
+
+To add your API key, please add a config.js file to /src and copy/paste the following code into config.js, replacing API_Key_Goes_Here with your API key:
+
+module.exports.config = {
+  api_key: "API_Key_Goes_Here",
+};
+
+==========================================
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
